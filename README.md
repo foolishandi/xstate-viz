@@ -1,12 +1,10 @@
 # xstate-viz 状态机可视化本地部署
 
-# 可直接静态部署，建议用 nginx，或 utool 的 liveserver 部署
+- 可直接静态部署，建议用 vscode 的 liveserver 或 utool 的 liveserver，或者 nginx 部署
 
-# 网页直接调用可以直接编辑测试状态机
+- 网页直接调用可以直接编辑测试状态机
 
-# 若需要项目接入测试，项目内设置 inspect:
-
-##
+- 若需要项目接入测试，项目内设置 inspect:
 
 ```javascript
 inspect({
